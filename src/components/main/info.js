@@ -2,7 +2,6 @@ import React, {useState} from "react";
 
 const Info = () => {
 
-  const elements = ['pitch', 'details', 'updates', 'comments'];
   const [currentElement, setCurrentElement] = useState('pitch');
 
   const handleClick = (element) => {
@@ -10,7 +9,7 @@ const Info = () => {
   }
 
   return (
-    <div className='info'>
+    <div id='info'>
 
 
     <div className='buttons'>
@@ -239,12 +238,12 @@ const Info = () => {
             <button className="m">Add Comment</button>
             <div className="card arrow"> 
               <a >
-                <i class="fas fa-angle-right"></i>
-                <span class="sr-only">Next</span>
+                <i className="fas fa-angle-right"></i>
+                <span className="sr-only">Next</span>
               </a>            
               <a>
-                <i class="fas fa-angle-left"></i>
-                <span class="sr-only">Previous</span>
+                <i className="fas fa-angle-left"></i>
+                <span className="sr-only">Previous</span>
               </a>
 
 

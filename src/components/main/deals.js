@@ -2,7 +2,7 @@ import React  from "react";
 import Wrapper from "./wrapper";
 const Deals = () => {
     return (
-      <div className='deals'>
+      <div id='deals'>
         <span className="head">Deal Terms</span>
         <span className="txt">Perks you will receive for Investing Letzrent</span>
         <Wrapper 

@@ -6,7 +6,7 @@ import Info from './info';
 import Invest from './invest';
 const Main = () => {
   return (
-    <div className='main'>
+    <>
       <Video />
 
       <Invest/>
@@ -15,7 +15,7 @@ const Main = () => {
 
       <Deals/>
 
-    </div>
+    </>
   );
 }
 

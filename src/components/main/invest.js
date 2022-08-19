@@ -2,7 +2,7 @@ import React  from "react";
 
 const Invest = () => {
     return (
-        <div className='invest card'>
+        <div id='invest' className="card">
           <span className="up">
             <h1>₹ 0</h1>
             <p>0 % of minimum goal raised</p>

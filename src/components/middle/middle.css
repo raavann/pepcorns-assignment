@@ -1,19 +1,21 @@
-.middlemain{
+#middlemain{
     display: flex;
     justify-content: center;
     flex-direction: column;
     margin: 2rem;
 }
 
-.middlemain .buttons{
+#middlemain .buttons{
     display: flex;
     flex-direction: row;
 }
-.middlemain .midbtn{
+#middlemain .midbtn{
     background-color: #F5365C !important;
+    color: white !important;
+    border: none !important;
 }
 
-.middlemain .buttons button{
+#middlemain .buttons button{
     padding: 0.9rem 1.3rem;
     margin-right: 1rem;
     font-size: 1rem;
@@ -24,49 +26,62 @@
     background-color: white;
 }
 
-.middlemain .buttons button:hover{
+#middlemain .buttons button:hover{
     transition: 0.4s;
     background-color: #5E72E4;
     color: white;
 }
 
-.maintitle {
+#middlemain .maintitle {
     padding-left: 1rem;
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 2rem;
 }
-.maintitle .content{
-    max-width: 40vw;
+
+#middlemain .title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
 }
 @media screen and (max-width: 768px) {
-    .maintitle{
+    #middlemain {
         flex-direction: column;
         align-items: baseline;
         justify-content: left;
     }
-    .content h1{
+    #middlemain .content h1{
         margin-top: 0;
     }
-    .maintitle .content{
+    #middlemain .content{
         max-width: 100%;
     }
-    .maintitle{
+    #middlemain{
         margin: 3rem;
         margin-bottom: 0;
         gap: 1rem;
     }
+    #middlemain .title{
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #middlemain .links{
+        padding-left: 20px;
+    }
+
 }
-.maintitle .img img{
+#middlemain .img img{
     width: 80px;
     border-radius: 50%;
 }
-.maintitle .content h1{
+#middlemain .maintitle .content h1{
     font-size: 3rem;
     color: #32325D;
 }
-.content .adrs{
+#middlemain .content .adrs{
     font-size: 1rem;
     color: #8898aa;
     font-family: Open Sans, sans-serif;
@@ -77,29 +92,29 @@
     font-size: 90%;
 }
 
-.content .email{
+#middlemain .content .email{
     font-family: open sans, sans-serif;
     color: #525f7f;
     font-size: 100%;
     margin-top: 0.4rem;
 }
-.content .email .online{
+#middlemain .content .email .online{
     color: #2dce89;
 }
-.content h1{
+#middlemain .content h1{
     margin-bottom: 0.5rem;
 }
-.content .other{
+#middlemain .content .other{
     font-size:80%;
     margin-top: 0.3rem;
     font-family: open sans, sans-serif;
     color: #32325d;
 }
-.maintitle .content h1:hover{
+#middlemain .maintitle .content h1:hover{
     color : #5E72E4;
     cursor: pointer;
 }
-.maintitle .links{
+#middlemain .links{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -110,11 +125,11 @@
     font-size: 13px;
     color: #5E72E4 !important;
 }
-.maintitle .links:hover{
+#middlemain .links:hover{
     cursor: pointer;
 }
 
-.bottomtext{
+#middlemain .bottomtext{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -126,7 +141,7 @@
     font-size: 13px;
     font-weight: 600;
 }
-.bottomtext .org{
+#middlemain .bottomtext .org{
     background-color: rgb(251, 220, 218);
     padding: 5px;
     border-radius: 5px;
