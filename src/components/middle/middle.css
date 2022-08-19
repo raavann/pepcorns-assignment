@@ -1,0 +1,133 @@
+.middlemain{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+.middlemain .buttons{
+    display: flex;
+    flex-direction: row;
+}
+.middlemain .midbtn{
+    background-color: #F5365C !important;
+}
+
+.middlemain .buttons button{
+    padding: 0.9rem 1.3rem;
+    margin-right: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid #5E72E4;
+    color :#5E72E4;
+    background-color: white;
+}
+
+.middlemain .buttons button:hover{
+    transition: 0.4s;
+    background-color: #5E72E4;
+    color: white;
+}
+
+.maintitle {
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+.maintitle .content{
+    max-width: 40vw;
+}
+@media screen and (max-width: 768px) {
+    .maintitle{
+        flex-direction: column;
+        align-items: baseline;
+        justify-content: left;
+    }
+    .content h1{
+        margin-top: 0;
+    }
+    .maintitle .content{
+        max-width: 100%;
+    }
+    .maintitle{
+        margin: 3rem;
+        margin-bottom: 0;
+        gap: 1rem;
+    }
+}
+.maintitle .img img{
+    width: 80px;
+    border-radius: 50%;
+}
+.maintitle .content h1{
+    font-size: 3rem;
+    color: #32325D;
+}
+.content .adrs{
+    font-size: 1rem;
+    color: #8898aa;
+    font-family: Open Sans, sans-serif;
+    font-weight: 300;
+    line-height: 1.7;
+    letter-spacing: 1px;
+    margin: 0;
+    font-size: 90%;
+}
+
+.content .email{
+    font-family: open sans, sans-serif;
+    color: #525f7f;
+    font-size: 100%;
+    margin-top: 0.4rem;
+}
+.content .email .online{
+    color: #2dce89;
+}
+.content h1{
+    margin-bottom: 0.5rem;
+}
+.content .other{
+    font-size:80%;
+    margin-top: 0.3rem;
+    font-family: open sans, sans-serif;
+    color: #32325d;
+}
+.maintitle .content h1:hover{
+    color : #5E72E4;
+    cursor: pointer;
+}
+.maintitle .links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: open sans, sans-serif;
+    font-size: 12px;
+    gap: 1rem;
+    font-size: 13px;
+    color: #5E72E4 !important;
+}
+.maintitle .links:hover{
+    cursor: pointer;
+}
+
+.bottomtext{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 30rem;
+    gap: 2.5rem;
+    color:black;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+}
+.bottomtext .org{
+    background-color: rgb(251, 220, 218);
+    padding: 5px;
+    border-radius: 5px;
+}
