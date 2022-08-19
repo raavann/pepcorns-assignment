@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/pepcorns-assignment/static/css/main.0076cf23.css",
-    "main.js": "/pepcorns-assignment/static/js/main.a828aaea.js",
+    "main.css": "/pepcorns-assignment/static/css/main.6aaf8422.css",
+    "main.js": "/pepcorns-assignment/static/js/main.d557b071.js",
     "index.html": "/pepcorns-assignment/index.html",
-    "main.0076cf23.css.map": "/pepcorns-assignment/static/css/main.0076cf23.css.map",
-    "main.a828aaea.js.map": "/pepcorns-assignment/static/js/main.a828aaea.js.map"
+    "main.6aaf8422.css.map": "/pepcorns-assignment/static/css/main.6aaf8422.css.map",
+    "main.d557b071.js.map": "/pepcorns-assignment/static/js/main.d557b071.js.map"
   },
   "entrypoints": [
-    "static/css/main.0076cf23.css",
-    "static/js/main.a828aaea.js"
+    "static/css/main.6aaf8422.css",
+    "static/js/main.d557b071.js"
   ]
 }
